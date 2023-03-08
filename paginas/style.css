@@ -9,16 +9,8 @@ border: 1px solid black;
     
    background: linear-gradient(to bottom, rgb(149, 230, 246),rgb(237, 122, 218));
  }
-.naranja{
-    background-color: brown;
-}
-.contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin: 1rem;
-}
+
+/* carrusel */
 
 .contentCarrusel{
 border: 1px solid black;
@@ -58,11 +50,9 @@ h2{
      font-size: 300%;
      font-family: cursive;
 }
-.cardsIndex{
-    background-color: blue;
-    width: 80%;
 
-}
+/* catelogias */
+
 .cartegory{
    background-color: blueviolet;
     display: flex;
@@ -75,14 +65,33 @@ h2{
     margin-left: 300px;
     display: flex;
 }
+/* crads */
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    margin: 1rem;
+}
 .cardhome{
     display: flex;
     gap: 0.625rem;
     margin-left: 1.25rem;
     margin-top: 1.875rem;
+     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    height: 60vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px;
   
 }
-
 
 .correo{
    font-size: 150%;
