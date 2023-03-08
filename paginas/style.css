@@ -4,19 +4,67 @@
     box-sizing: border-box;
  
 }
-
-.container{
-background-color: rgb(192, 222, 184);
+ body{
+border: 1px solid black;
+    
+   background: linear-gradient(to bottom, rgb(149, 230, 246),rgb(237, 122, 218));
+ }
+.naranja{
+    background-color: brown;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
 }
 
+.contentCarrusel{
+border: 1px solid black;
+height: 100px;
+overflow: hidden;
+}
+.itemCarrusel{
 
-.carousel{
-    width: 50vw;
-margin-left: 9.375em;
+    height: 100%;
+    position: relative;
+
+}
+.cardCarrusel{
+background-color: aqua;
+height: 100%;
 }
 
-.cartegory{
+.flechasCarrusel{
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+
+}
+
+h2{
    
+    display: flex;
+    justify-content: center;
+    padding: top 10px; ;
+     align-items: center;
+     padding: 20px;
+     font-size: 300%;
+     font-family: cursive;
+}
+.cardsIndex{
+    background-color: blue;
+    width: 80%;
+
+}
+.cartegory{
+   background-color: blueviolet;
     display: flex;
     gap: 0.625rem;
    font-size: 120%;
@@ -75,3 +123,4 @@ table, th,td{
     text-align: center;
     font-size: 130%;
  }
+
